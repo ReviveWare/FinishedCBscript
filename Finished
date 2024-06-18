@@ -1,14 +1,14 @@
 --[[
-Made by Pawel12d#0272
+Made by NudeWare
 --]]
 
 local Hint = Instance.new("Hint", game.CoreGui)
-Hint.Text = "Hexagon | Waiting for the game to load..."
+Hint.Text = "NudeWare | Waiting for the game."
 
 repeat wait() until game:IsLoaded()
 repeat wait() until game.Players.LocalPlayer.PlayerGui:FindFirstChild("GUI")
 
-Hint.Text = "Hexagon | Setting up environment..."
+Hint.Text = "NudeWare | Setting up environment..."
 
 -- Services
 local UserInputService = game:GetService("UserInputService")
